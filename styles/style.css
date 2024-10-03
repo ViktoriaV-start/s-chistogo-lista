@@ -19,6 +19,7 @@ ol,
 blockquote {
   margin: 0;
   padding: 0;
+  font-weight: normal;
 }
 
 .content-section {
@@ -33,7 +34,6 @@ blockquote {
 }
 
 .content-section_theme_bright {
-  height: 100px;
   color: #131313;
   background-color: #fee42a;
 }
@@ -79,4 +79,112 @@ blockquote {
 .header__menu-item_active.header__menu-link::after {
   background-color: transparent;
   cursor: default;
+}
+
+.cover {
+  background-image: url(../images/cover.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 339px 198px;
+}
+
+.cover__title {
+  padding: 10px 24px 4px 20px;
+}
+
+.cover__accent-span {
+  display: block;
+  color: #ffffff;
+  font-family: Ebgaramond, serif;
+  font-size: 72px;
+  /* font-weight: 100; */
+  line-height: 100%;
+  letter-spacing: -0.5px;
+}
+
+.cover__text-center {
+  text-align: center;
+}
+
+.cover__text-right {
+  text-align: end;
+}
+
+.intro {
+  padding: 30px 20px 38px;
+}
+
+.intro__heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.intro__title {
+  color: #ccc;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.intro__date {
+  color: #ccc;
+  font-size: 16px;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.intro__main-text {
+  color: #f5f5f5;
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.intro__text:first-child {
+  margin-bottom: 24px;
+}
+
+.reasons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  padding: 40px 20px 39px;
+}
+
+.reasons__title {
+  display: flex;
+  flex-direction: column;
+}
+
+.reasons__title-item {
+  font-family: "Ebgaramond";
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.15;
+}
+
+.reasons__title-item:first-child {
+  align-self: end;
+}
+
+.reasons__intro {
+  font-size: 20px;
+  line-height: 1.35;
+}
+
+.reasons__list {
+  padding-left: 14px;
+}
+
+.reasons__list-item {
+font-size: 16px;
+line-height: 1.35;
+}
+
+.reasons__list-item:not(:last-child) {
+  margin-bottom: 17px;
+}
+
+
+.reasons__list-accent{
+  font-weight: 700;
 }
