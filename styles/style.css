@@ -3,7 +3,6 @@
 body {
   margin: 0;
   font-family: Inter, Arial, sans-serif;
-  font-size: 100%;
   background-color: #f2faff;
 }
 
@@ -16,10 +15,12 @@ h6,
 p,
 ul,
 ol,
+figure,
 blockquote {
   margin: 0;
   padding: 0;
   font-weight: normal;
+  font-size: 100%;
 }
 
 .content-section {
@@ -89,7 +90,7 @@ blockquote {
 }
 
 .cover__title {
-  padding: 10px 24px 4px 20px;
+  padding: 8px 24px 4px 20px;
 }
 
 .cover__accent-span {
@@ -112,29 +113,27 @@ blockquote {
 
 .intro {
   padding: 30px 20px 38px;
+  font-size: 16px;
 }
 
 .intro__heading {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 24px;
+  margin-bottom: 25px;
 }
 
 .intro__title {
   color: #ccc;
-  font-size: 16px;
   line-height: 1.2;
 }
 
 .intro__date {
   color: #ccc;
-  font-size: 16px;
   line-height: 1.2;
   white-space: nowrap;
 }
 
 .intro__main-text {
-  color: #f5f5f5;
   font-size: 16px;
   line-height: 1.35;
 }
@@ -146,27 +145,38 @@ blockquote {
 .reasons {
   display: flex;
   flex-direction: column;
-  row-gap: 30px;
-  padding: 40px 20px 39px;
+  row-gap: 31px;
+  padding: 40px 20px 38px;
 }
 
-.reasons__title {
+.how-to {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  padding: 40px 20px 60px;
+}
+
+.reasons__title,
+.how-to__title {
   display: flex;
   flex-direction: column;
 }
 
-.reasons__title-item {
+.reasons__title-item,
+.how-to__title-item {
   font-family: "Ebgaramond";
   font-weight: 500;
   font-size: 28px;
   line-height: 1.15;
 }
 
-.reasons__title-item:first-child {
+.reasons__title-item:first-child,
+.how-to__title-item:first-child {
   align-self: end;
 }
 
-.reasons__intro {
+.reasons__intro,
+.how-to__intro {
   font-size: 20px;
   line-height: 1.35;
 }
@@ -176,15 +186,81 @@ blockquote {
 }
 
 .reasons__list-item {
-font-size: 16px;
-line-height: 1.35;
+  font-size: 16px;
+  line-height: 1.35;
 }
 
 .reasons__list-item:not(:last-child) {
   margin-bottom: 17px;
 }
 
-
-.reasons__list-accent{
+.reasons__list-accent {
   font-weight: 700;
+}
+
+.how-to__list {
+  list-style: none;
+}
+
+.card {
+  border-radius: 30px;
+  padding: 20px 21px 20px;
+}
+
+.how-to__list-item:not(:last-child) {
+  margin-bottom: 34px;
+}
+
+.card_theme_dark {
+  color: #f5f5f5;
+  background-color: #343434;
+}
+
+.card_theme_bright {
+  color: #131313;
+  background-color: #fee42a;
+}
+
+.card__author {
+  margin-bottom: 6px;
+}
+
+.card__figcaption {
+  margin-top: 3px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.card__title {
+  font-family: "Ebgaramond";
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.35;
+}
+
+.card__content {
+  margin-top: 8px;
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #fee42a;
+  padding: 20px;
+}
+
+.footer__copy {
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.footer__link-item {
+  margin-left: 12px;
+  color: #f5f5f5;
+  font-size: 14px;
+  line-height: 1.25;
+  text-decoration: none;
 }
