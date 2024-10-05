@@ -2,7 +2,7 @@
   src: url(ebgaramondregular.woff) format('woff'),
         url(ebgaramondregular.woff2) format('woff2'),
         url(ebgaramondregular.ttf) format('truetype');
-  font-family: 'Ebgaramond';
+  font-family: 'EB Garamond';
   font-weight: 400;
 }
 
@@ -10,7 +10,7 @@
   src: url(ebgaramondmedium.woff) format('woff'),
         url(ebgaramondmedium.woff2) format('woff2'),
         url(ebgaramondmedium.ttf) format('truetype');
-  font-family: 'Ebgaramond';
+  font-family: 'EB Garamond';
   font-weight: 500;
 }
 

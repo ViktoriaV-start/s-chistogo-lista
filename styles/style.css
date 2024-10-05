@@ -1,5 +1,3 @@
-@import url(../fonts/fonts.css);
-
 body {
   margin: 0;
   font-family: Inter, Arial, sans-serif;
@@ -96,7 +94,7 @@ blockquote {
 .cover__accent-span {
   display: block;
   color: #ffffff;
-  font-family: Ebgaramond, serif;
+  font-family: "EB Garamond", serif;
   font-size: 72px;
   /* font-weight: 100; */
   line-height: 100%;
@@ -164,7 +162,7 @@ blockquote {
 
 .reasons__title-item,
 .how-to__title-item {
-  font-family: "Ebgaramond";
+  font-family: "EB Garamond";
   font-weight: 500;
   font-size: 28px;
   line-height: 1.15;
@@ -233,7 +231,7 @@ blockquote {
 }
 
 .card__title {
-  font-family: "Ebgaramond";
+  font-family: "EB Garamond";
   font-weight: 500;
   font-size: 22px;
   line-height: 1.35;
