@@ -94,7 +94,7 @@ blockquote {
 .cover__accent-span {
   display: block;
   color: #ffffff;
-  font-family: "EB Garamond", serif;
+  font-family: "EB Garamond", "Georgia", serif;
   font-size: 72px;
   /* font-weight: 100; */
   line-height: 100%;
@@ -162,7 +162,7 @@ blockquote {
 
 .reasons__title-item,
 .how-to__title-item {
-  font-family: "EB Garamond";
+  font-family: "EB Garamond", "Georgia", serif;
   font-weight: 500;
   font-size: 28px;
   line-height: 1.15;
@@ -231,7 +231,7 @@ blockquote {
 }
 
 .card__title {
-  font-family: "EB Garamond";
+  font-family: "EB Garamond", "Georgia", serif;
   font-weight: 500;
   font-size: 22px;
   line-height: 1.35;
@@ -250,13 +250,18 @@ blockquote {
   padding: 20px;
 }
 
+.footer__links {
+  display: flex;
+  column-gap: 17px;
+  list-style-type: none;
+}
+
 .footer__copy {
   font-size: 16px;
   line-height: 1.35;
 }
 
 .footer__link-item {
-  margin-left: 12px;
   color: #f5f5f5;
   font-size: 14px;
   line-height: 1.25;
